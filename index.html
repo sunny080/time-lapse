@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,400&family=Mukta&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <span class="jhon">
+
+      <h2 class="heading">Faiq Jaffar</h2>
+    </span>
+    <div class="fit">
+      <span class="glyphicon glyphicon-envelope"><a href="visits.html" class="ab">Visits</a>
+        <span class="glyphicon glyphicon-envelope" style="font-size:15px;"><a href="msg.html" class="ab">Messages</a>
+        </span>
+    </div>
+  </div>
+
+
+  <span class="bob">
+    <img src="img/logo.png" width="100px" height="100px" style="padding: 10px;">
+  </span>
+  <span class="jin" style="font-size:30px;cursor:pointer;padding: 20px;" onclick="openNav()">&#9776;</span>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+  </span>
+  <br><br>
+  <div class="container">
+    <div class="row">
+      <div id="slot" class="col-md-6 space pr-0">
+
+        <div class="contact-info contact-phone">
+          <i class="fa fa-eye info icon"></i>
+          <h4>No of Visits</h4>
+          <h5 class="info">Responsive, Clean, Powerful</h5>
+        </div>
+
+
+      </div>
+
+      <div id="slot" class="col-md-6 space pr-0">
+
+        <div class="contact-info contact-email">
+          <i class="fa fa-laptop info icon"></i>
+          <h4>No of Reviews</h4>
+          <h5 class="info">Database, Server, Language</h5>
+        </div>
+
+      </div>
+    </div>
+    <br>
+
+
+
+    <table class="table">
+      <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Delete</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Faiq</td>
+        <td><button class="btn btn-danger">Delete</button></td>
+      </tr>
+    </table>
+
+
+
+  </div>
+</body>
+
+</html>
