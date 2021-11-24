@@ -1,0 +1,163 @@
+body{
+	background-color: white;
+	font-family: 'Fira Sans', sans-serif;
+	color: black;
+	padding: 0px;
+	margin: 0px;
+}
+h1{
+	font-family: 'Mukta', sans-serif;
+}
+p{
+	font-family: 'Outfit', sans-serif;
+}
+
+li{
+	text-align: center !important;
+}
+ul{
+	font-family: 'Mukta', sans-serif;
+	font-size: 20px;
+}
+.spacet{
+	padding-top: 200px;
+}
+.icon{
+	font-size: 40px;
+}
+.name{
+	
+	 align-items: center;
+  display: flex;
+  justify-content: center;
+	
+}
+.pr-0{
+	text-align: center;
+
+}
+.contact-info{
+	background: #f0f0f0;
+	align-text: center;
+    border: 1px solid #e1e1e1;
+    padding: 25px 0 23px;
+    height: 200px;
+    width: 100%;
+}
+.caro{
+	height: 200px;
+	width: 200px !important;
+}
+.img{
+	border-radius: 59px;
+
+}
+.bg7{
+	background-image: url("wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.breadcrumbs-overlay {
+    position: relative;
+    z-index: 1;
+}
+.rs-breadcrumbs {
+    padding: 100px 0 35px;
+    height: 300px;
+}
+.info{
+	color: #138496;
+}
+.space{
+	padding: 5px;
+}
+nav-item{
+	color: #138496;
+}
+.info:hover{
+	color: #138496;
+	text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link {
+	color:#138496 !important;
+}
+.navbar-light .navbar-nav .active {
+	color:#138496 !important;
+	font-weight: bold;
+}
+.bg-color{
+	margin-top: 30px;
+	background-color: #138496;
+	padding: 20px;
+}
+.ab{
+	text-align: center;
+}
+.fit{
+	display: flex;
+	justify-content: center;
+}
+.jin{
+	position: absolute;
+	right: 30px;
+	top: 30px;
+}
+.bob{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+footer{
+	width: 100%;
+	padding: 5px;
+	background-color: #138496;
+	color: whitesmoke;
+	text-align: center;
+}
+nav{
+	position: fixed !important;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: white;
+	z-index: 9;
+	
+}
+.closebtn{
+	position: absolute;
+	font-size: 60px;
+	left: 30px;
+	top: 23px;
+}
+.heading{
+	width: 100%;
+	text-align: center;
+	
+}
+.logo{
+	padding: -10px;
+width: 70px;
+}
+.deve{
+	 color:white;
+	 text-align: center;
+}
+.para{
+	color: white;
+}
+@media(max-width: 768px) {
+.navbar-light .navbar-nav .nav-link {
+	font-size: 47px !important;
+}	
+.font{
+	font-size: 34px;
+}
+#slot{
+	width: 80%;
+	margin-left: 10%;
+	padding: 10px 0px;
+	
+}
+}
